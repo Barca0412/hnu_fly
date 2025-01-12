@@ -4,6 +4,10 @@ site_url: https://Barca0412.github.io/hnu_fly/
 repo_url: https://github.com/Barca0412/hnu_fly
 edit_uri: edit/main/docs/
 
+site_name: My eBook
+docs_dir: docs
+site_dir: site
+
 site_author: Barca
 site_description: 湖南大学课程资料共享与学习平台，汇集各院系课程笔记、复习资料、历年试题等学习资源
 copyright: Copyright &copy; 2025 Barca
