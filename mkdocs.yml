@@ -1,0 +1,74 @@
+site_name: 湖南大学课程资料共享平台
+# site_url: https://hunu-course-sharing.com
+site_url: https://Barca0412.github.io/hnu_fly/
+repo_url: https://github.com/Barca0412/hnu_fly
+edit_uri: edit/main/docs/
+
+site_author: Barca
+site_description: 湖南大学课程资料共享与学习平台，汇集各院系课程笔记、复习资料、历年试题等学习资源
+copyright: Copyright &copy; 2025 Barca
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  language: zh
+  locale: zh_CN
+  # palette:
+  #   primary: indigo
+  #   accent: blue
+  palette: 
+    # 添加调色板配置
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到暗黑模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: 切换到亮色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+
+nav:
+  - 首页: index.md
+  - 关于: about.md
+  - 基础课程: 
+    - 高等数学: basic/higher_mathematics.md
+    - 数学分析: basic/shufen.md
+    - 线性代数: basic/linear_algebra.md
+    - 概率论与数理统计: basic/probability_and_statistics.md
+    - 大学物理: basic/physics.md
+    - 大学英语: basic/english.md
+    - 大学计算机基础: basic/computer_science.md
+  - 专业课程:
+    - 商科相关: professional/business.md
+    - 计算机相关: professional/computer_science.md
+    - 数学相关: professional/math.md
+    - 物理相关: professional/physics.md
+    - 化学相关: professional/chemistry.md
+    - 生物相关: professional/biology.md
+    - 工程相关: professional/engineering.md
+    - 艺术相关: professional/art.md
+    - 其他相关: professional/other.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.arithmatex
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
